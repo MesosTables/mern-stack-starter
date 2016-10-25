@@ -1,0 +1,51 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "plugins" : [
+    "babel",
+    "promise",
+    "react"
+  ],
+  "env" : {
+    "browser" : true
+  },
+  "globals" : {
+    "__LOCALHOST__" : false,
+    "__DEV__"       : false,
+    "__STAGING__"   : false,
+    "__PROD__"      : false,
+    "__DEBUG__"     : false,
+    "__COVERAGE__"  : false,
+    "__BASENAME__"  : false,
+    "__NOAUTH__"    : false
+  },
+  "rules": {
+    "babel/generator-star-spacing" : 1,
+    "generator-star-spacing"       : 0,
+    "jsx-quotes"  : [2, "prefer-double"],
+    "key-spacing" : [2, {
+      "singleLine" : {
+        "beforeColon" : false,
+        "afterColon"  : true
+      },
+      "multiLine" : {
+        "align"       : "colon",
+        "beforeColon" : true,
+        "afterColon"  : true
+      }
+    }],
+    "no-unused-vars" : [2, {
+      "vars" : "all",
+      "args" : "after-used"
+    }],
+    "object-curly-spacing"       : [2, "always"],
+    "space-infix-ops"            : 0,
+    "max-len"                    : [2, 250, 2],
+    "react/jsx-indent-props"     : 0,
+    "react/jsx-indent"           : 0,
+    "react/prop-types"           : [2, { "ignore": ["props"] }]
+  }
+}

@@ -1,8 +1,11 @@
-var express = require('express');
-var app = express();
-app.use(express.static('static'));
+import express from 'express';
+import bodyParser from 'body-parser';
 
-var server = app.listen(3000, function (){
-	var port = server.address().port;
-	console.log('Example app listneing to port 3000!')
+var app = express();
+app.use(bodyParser.json());
+const root = `${__dirname}/public`;
+app.use(express.static(root));
+
+app.listen(3000, () => {
+  console.log('App listening on port 3000!');
 });
