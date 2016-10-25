@@ -1,0 +1,27 @@
+{
+  "name": "mern-stack-starter",
+  "version": "1.0.0",
+  "description": "MERN stack starter kit",
+  "main": "webapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MesosTables/mern-stack-starter.git"
+  },
+  "author": "Carson Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MesosTables/mern-stack-starter/issues"
+  },
+  "homepage": "https://github.com/MesosTables/mern-stack-starter#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
