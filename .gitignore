@@ -2,3 +2,4 @@
 npm-debug.log
 public/bundle.js
 build/webapp.js
+/data
