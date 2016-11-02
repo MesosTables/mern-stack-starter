@@ -7,18 +7,18 @@
 1. npm install mongoose
 1. include in the main node file:
   1. var mongoose = require('mongoose');
-  1. mongoose.connect('localhost:27017/node-tut-rest');
+  1. mongoose.connect('localhost:27017/<repoName>');
 
 ##Run App
 
-get the webapp.js converted 
-* npm run babel 
+get the webapp.js converted
+* npm run babel
 
 start node server
 * npm run node
 
 start react app
-*npm run dev
+* npm run dev
 
 start mongo
 * Navigate to Mongo installation bin folder
